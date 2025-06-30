@@ -8,6 +8,7 @@ import java.util.Random;
 /**
  * DBMS의 업무 목록을 구현.
  */
+//@Repository("mysql2")
 public class MySqlDAOImpl implements DAO {
 
 	@Override

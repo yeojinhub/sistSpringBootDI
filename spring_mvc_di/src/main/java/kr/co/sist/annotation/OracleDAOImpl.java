@@ -11,6 +11,7 @@ import org.springframework.stereotype.Repository;
  * DBMS의 업무 목록을 구현.
  */
 //@Component
+//@Repository가 존재하지 않기 때문에 String Container에서 Component-Sacn을 하지 않는다.
 @Repository("ora")
 public class OracleDAOImpl implements DAO {
 
